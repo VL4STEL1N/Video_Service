@@ -1,0 +1,276 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Rubik';
+}
+
+header{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+a{
+  text-decoration: none;
+  color: var(--Gray-1, #333);
+  text-align: right;
+  font-family: Rubik;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  }
+
+#main-container{
+  width: 73.75rem;
+  height: 2.5rem;
+  margin: auto;
+  margin-top: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+p{
+  display: inline-block;
+}
+
+.cont1{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.cont2{
+  display: flex;
+}
+
+#Nat{
+  color: var(--red, #E5261E);
+  font-family: Rubik;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2rem;
+}
+
+#logo-site{
+  display: flex;
+  width: 2.25725rem;
+  height: 2.25rem;
+  flex-shrink: 0;
+}
+
+#video{
+  display: flex;
+  color: var(--Gray-1, #333);
+  font-family: Rubik;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 0.74rem;
+}
+
+#Voit{
+  border-radius: 0.25rem;
+  background: var(--red, #E5261E);
+  width: 7.0625rem;
+  height: 2.375rem;
+  flex-shrink: 0;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+
+#mySearch{
+  width: 20rem;
+  height: 1.5625rem;
+  border-top-style:none ;
+  border-right-style:none ;
+  border-left-style:none ;
+  border-color: #333333;
+}
+
+.cont3{
+  display: flex;
+  display: inline-block;
+}
+
+nav{
+  width: 100vw;
+  margin: auto;
+}
+
+
+#films{
+  color: var(--Gray-1, #333);
+  text-align: right;
+  font-family: Rubik;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  display: inline-block;
+  margin-right: 3rem;
+  margin-top: 3rem;
+  background-color: white;
+  border: none;
+}
+
+#tele{
+  color: var(--red, #E5261E);
+  text-align: right;
+  font-family: Rubik;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  margin-top: 3rem;
+  border: none;
+  background-color: white;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: #E5261E 2px solid;
+}
+
+#container-links{
+  text-align: center;
+  width: 40rem;
+  margin: auto;
+}
+
+
+main{
+  width: 73.75rem;
+  height: 100%;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#block-tele1{
+  width: 1180px;
+  height: 162px;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background: var(--Gray-6, #F2F2F2);
+  margin-bottom: 1rem;
+  padding-top: 49px;
+  padding-bottom: 49px;
+  box-sizing: border-box;
+  display: flex;
+  padding-left: 176px;
+}
+
+.item-text{
+  color: var(--Gray-1, #333);
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.item-text-small{
+  color: var(--Gray-1, #333);
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#logo-channel1{
+  margin-right: 176px;
+}
+
+.blocks-channel{
+  flex-direction: column;
+  height: 10.125rem;
+  gap: 17px;
+}
+
+
+#block-tele2{
+  width: 73.75rem;
+  height: 10.125rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background: var(--Gray-6, #F2F2F2);
+  margin-bottom: 1rem;
+}
+
+#block-tele3{
+  width: 73.75rem;
+  height: 10.125rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background: var(--Gray-6, #F2F2F2);
+  margin-bottom: 1rem;
+}
+
+#block-tele4{
+  width: 73.75rem;
+  height: 10.125rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background: var(--Gray-6, #F2F2F2);
+}
+
+footer{
+  width: 100%;
+  height: 7.5rem;
+  background: var(--Gray-6, #F2F2F2);
+  margin-top: 5rem;
+}
+
+.footer-content{
+  width: 73.75rem;
+  height: 7.5rem;
+  flex-shrink: 0;
+  margin: auto;
+  display: flex;
+}
+
+#img-logo-htc{
+  display: inline-block;
+  width: 1.9995rem;
+  height: 4rem;
+  flex-shrink: 0;
+  margin-top: 2rem;
+}
+
+#place{
+  flex-direction: column;
+  margin-top: 1.8rem;
+  display: block;
+}
+
+#column{
+  flex-direction: column;
+  margin-left: 2.5rem;
+}
+
+#link-htc{
+  text-decoration: none;
+  color: var(--htc-color, #1F4766);
+  font-family: Rubik;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
