@@ -188,6 +188,10 @@ main{
   /* justify-content: space-between; */
   gap: 20px; 
   flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.opis-text-film{
 }
 
 .p-films{
@@ -204,8 +208,7 @@ main{
   /* width: 280px;
   height: 370px;
   flex-shrink: 0;
-  border-radius: 8px;
-  cursor: pointer; */
+  border-radius: 8px;*/
 }
 
 .text-in-block-film1{
@@ -274,14 +277,17 @@ main{
   flex-shrink: 0;
   border-radius: 8px;
   cursor: pointer; */
+  height: 370px;
 }
 
 .item{
   width: 280px;
-  height: 370px;
+  max-height: 434px;
   /* flex-shrink: 0; */
   border-radius: 8px;
   cursor: pointer;
+  background-repeat: no-repeat;
+
 }
 
 .text-in-block-film4{
