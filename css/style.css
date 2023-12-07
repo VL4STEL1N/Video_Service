@@ -6,11 +6,11 @@ body{
 }
 
 hr{
-  width: 73.75rem;
+  flex-basis: 100%;
   height: 0.4375rem;
   background: #D9D9D9;
   border: none;
-  margin-bottom: -0.4rem;
+  margin-top: -20px;
 }
 
 header{
@@ -30,7 +30,7 @@ a{
   }
 
 #main-container{
-  width: 73.75rem;
+  width: 1180px;
   height: 2.5rem;
   margin: auto;
   margin-top: 32px;
@@ -77,8 +77,8 @@ p{
 
 #logo-site{
   display: flex;
-  width: 2.25725rem;
-  height: 2.25rem;
+  width: 36.116px;
+  height: 32.4px;
   flex-shrink: 0;
 }
 
@@ -172,15 +172,17 @@ nav{
 
 
 main{
- width: 73rem;
+  width: 1180px;
  /* width: auto; */
   height: 100%;
   margin: 0 auto;
   margin-top: 2rem;
+  flex-direction: column;
 }
 
+
 .block-container-images-flims{
-  width: 1440px;
+  width: 1180px;
   height: auto;
   /* height: 100%; */
   margin: auto;
@@ -188,10 +190,23 @@ main{
   /* justify-content: space-between; */
   gap: 20px; 
   flex-wrap: wrap;
-  margin-bottom: 32px;
+  justify-content: space-between;
 }
 
 .opis-text-film{
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  color: var(--Gray-1, #333);
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.block-for-text{
+  margin-bottom: 16px;
 }
 
 .p-films{
@@ -209,12 +224,17 @@ main{
   height: 370px;
   flex-shrink: 0;
   border-radius: 8px;*/
+  height: 370px;
 }
 
 .text-in-block-film1{
   width: 280px;
   height: 370px;
   opacity: 0;
+  border-radius: 8px;
+  padding: 16px;
+  box-sizing: border-box;
+  color: white;
 }
 
 .text-in-block-film1:hover{
@@ -231,12 +251,16 @@ main{
   flex-shrink: 0;
   border-radius: 8px;
   cursor: pointer; */
+  height: 370px;
 }
 
 .text-in-block-film2{
   width: 280px;
   height: 370px;
   opacity: 0;
+  box-sizing: border-box;
+  padding: 16px;
+  color: white;
 }
 
 .text-in-block-film2:hover{
@@ -253,6 +277,7 @@ main{
   flex-shrink: 0;
   border-radius: 8px;
   cursor: pointer; */
+  height: 370px;
 }
 
 .text-in-block-film3{
@@ -284,9 +309,10 @@ main{
   width: 280px;
   max-height: 434px;
   /* flex-shrink: 0; */
-  border-radius: 8px;
+  border-radius: 0.5em;
   cursor: pointer;
   background-repeat: no-repeat;
+  flex-direction: column;
 
 }
 
@@ -294,6 +320,9 @@ main{
   width: 280px;
   height: 370px;
   opacity: 0;
+  box-sizing: border-box;
+  color: white;
+  padding: 16px;
 }
 
 .text-in-block-film4:hover{
@@ -306,7 +335,7 @@ main{
 
 
 .emod-blocks{
-  width: 1180px;
+  width: 100%;
   height: auto;
   display: flex;
   justify-content: space-between;
@@ -384,7 +413,10 @@ main{
 }
 
 #ganre{
-  margin-top: 32px;
+  margin-top: 80px;
+  /* display: block; */
+  text-align: start;
+  flex-basis: 100%;
 }
 
 footer{
@@ -455,6 +487,19 @@ footer{
   .footer-content{
     width: 880px;
   }
+
+  .text-in-block-film1{
+    /* margin-top: 32px; */
+  }
+
+  .content-block-film4{
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .blocks-emod4{
+    margin: auto;
+  }
 }
 
 @media (max-width: 896px) {
@@ -505,9 +550,25 @@ footer{
   #link-htc a{
     text-align: center;
   }
+
+
+  .content-block-film3{
+    margin: auto;
+    margin-top: 60px;
+  }
+
+  .content-block-film4{
+    margin: auto;
+    margin-top: 60px;
+  }
+
+  .ganre{
+    margin-top: 100px;
+    display: block;
+  }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 615px) {
   main{
     width: 280px;
   }
@@ -523,15 +584,16 @@ footer{
 
   #container-links{
     width: 280px;
+    margin: auto;
   }
 
   #films{
-    font-size: 1.5rem;
-    margin-right: 0;
+    font-size: 24px;
+    margin-right: 30px;
   }
 
-  #tele a{
-    font-size: 1.5rem;
+  #tele{
+    font-size: 24px;
   }
 
   #main-container{
@@ -546,8 +608,9 @@ footer{
   }
 
   #Nat{
-    display: inline-block;
+    display: block;
     margin: auto;
+    margin-top: 10px;
   }
 
   .emod-blocks{
@@ -558,6 +621,31 @@ footer{
 
   #ganre{
    text-align: center;
+  }
+
+  .item{
+    margin-top: 16px;
+  }
+
+  .content-block-film3{
+    margin: auto;
+    margin-top: 60px;
+  }
+
+  .content-block-film4{
+    margin: auto;
+    margin-top: 60px;
+  }
+
+
+  .content-block-film2{
+    margin: auto;
+    margin-top: 60px;
+  }
+
+  .content-block-film4{
+    margin: auto;
+    margin-top: 60px;
   }
 }
 

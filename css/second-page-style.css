@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  overflow-x:hidden;
   font-family: 'Rubik';
 }
 
@@ -22,14 +22,26 @@ a{
   }
 
 #main-container{
-  width: 73.75rem;
+  width: 1180px;
   height: 2.5rem;
   margin: auto;
-  margin-top: 2rem;
+  margin-top: 32px;
   justify-content: space-between;
   align-items: center;
   display: flex;
 }
+#text-article2{
+  display: inline-block;
+  color: var(--Gray-1, #333);
+  text-align: left;
+  font-family: Rubik;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: -1rem;
+}
+
 
 p{
   display: inline-block;
@@ -43,6 +55,7 @@ p{
 
 .cont2{
   display: flex;
+  flex-wrap: wrap;
 }
 
 #Nat{
@@ -57,20 +70,21 @@ p{
 
 #logo-site{
   display: flex;
-  width: 2.25725rem;
-  height: 2.25rem;
+  width: 36.116px;
+  height: 32.4px;
   flex-shrink: 0;
 }
 
 #video{
-  display: flex;
   color: var(--Gray-1, #333);
   font-family: Rubik;
-  font-size: 1.25rem;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-left: 0.74rem;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  margin-left: 11.88px;
 }
 
 #Voit{
@@ -154,7 +168,7 @@ nav{
 
 
 main{
-  width: 73.75rem;
+  width: 1180px;
   height: 100%;
   margin: auto;
   margin-top: 2rem;
@@ -169,11 +183,17 @@ main{
   border-radius: 0.5rem;
   background: var(--Gray-6, #F2F2F2);
   margin-bottom: 1rem;
-  padding-top: 49px;
-  padding-bottom: 49px;
+  padding-top: 21px;
+  padding-bottom: 19px;
   box-sizing: border-box;
   display: flex;
   padding-left: 176px;
+}
+
+.main-container-tele{
+  height: 696px;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .item-text{
@@ -195,40 +215,139 @@ main{
 }
 
 #logo-channel1{
+  width: 50px;
+  height: 64px;
   margin-right: 176px;
+  margin-top: 28px;
+}
+
+#logo-channel2{
+  width: 114px;
+  height: 49px;
+  margin-top: 35px;
+  margin-right: 143px;
 }
 
 .blocks-channel{
   flex-direction: column;
-  height: 10.125rem;
-  gap: 17px;
+  display:inline-block;
+  margin: 0;
+  text-align: start;
+  margin-top: -18px;
 }
 
+span{
+  color: var(--red, #E5261E);
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+p{
+  margin-bottom: -20px;
+}
+
+.main-text{
+  color: var(--Gray-1, #333);
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 15px;
+}
+
+.first-text{
+  margin-top: 17px;
+  color: var(--red, #E5261E);
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+
+  .video-servic-text{
+  color: var(--Gray-1, #333);
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.last-text{
+  margin-bottom: 0;
+  color: var(--Gray-1, #333);
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 
 #block-tele2{
-  width: 73.75rem;
-  height: 10.125rem;
+  width: 1180px;
+  height: 162px;
   flex-shrink: 0;
   border-radius: 0.5rem;
   background: var(--Gray-6, #F2F2F2);
   margin-bottom: 1rem;
+  margin-right: 176px;
+  margin-top: 28px;
+  display: flex;
+  padding-top: 21px;
+  padding-left: 143px;
+  padding-bottom: 19px;
+  box-sizing: border-box;
 }
 
 #block-tele3{
-  width: 73.75rem;
-  height: 10.125rem;
+  width: 1180px;
+  height: 162px;
   flex-shrink: 0;
   border-radius: 0.5rem;
   background: var(--Gray-6, #F2F2F2);
   margin-bottom: 1rem;
+  margin-right: 176px;
+  margin-top: 28px;
+  display: flex;
+  padding-top: 21px;
+  padding-left: 143px;
+  padding-bottom: 19px;
+  box-sizing: border-box;
+}
+
+#logo-channel3{
+  width: 114px;
+  height: 65px;
+  margin-top: 33px;
+  margin-right: 143px;
 }
 
 #block-tele4{
-  width: 73.75rem;
-  height: 10.125rem;
+  width: 1180px;
+  height: 162px;
   flex-shrink: 0;
   border-radius: 0.5rem;
   background: var(--Gray-6, #F2F2F2);
+  margin-bottom: 1rem;
+  margin-right: 176px;
+  margin-top: 28px;
+  display: flex;
+  padding-top: 21px;
+  padding-left: 168px;
+  padding-bottom: 19px;
+  box-sizing: border-box;
+}
+
+#logo-channel4{
+  width: 64px;
+  height: 64px;
+  margin-top: 27px;
+  margin-right: 168px;
 }
 
 footer{
@@ -258,11 +377,14 @@ footer{
   flex-direction: column;
   margin-top: 1.8rem;
   display: block;
+  margin-bottom: -1px;
 }
 
 #column{
   flex-direction: column;
   margin-left: 2.5rem;
+  padding-bottom: 25px;
+  box-sizing: border-box;
 }
 
 #link-htc{
@@ -275,4 +397,173 @@ footer{
   line-height: normal;
 }
 
-/* sdsdsd */
+
+@media (max-width: 1200px) {
+  main{
+    width: 880px;
+  }
+
+  #main-container{
+    width: 880px;
+  }
+
+  #block-tele1{
+    padding-left: 110px;
+  }
+
+  #block-tele2{
+    padding-left: 70px;
+  }
+
+  #block-tele3{
+    padding-left: 70px;
+  }
+
+  #block-tele4{
+    padding-left: 95px;
+  }
+
+
+  .footer-content{
+    width: 880px;
+  }
+}
+
+
+@media (max-width: 896px) {
+  main{
+    width: 580px;
+  }
+
+  #main-container{
+    width: 580px;
+    height: 100px;
+    flex-direction: column;
+  }
+
+  .cont3{
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  .footer-content{
+    width: 580px;
+  }
+
+  .main-container-tele{
+    flex-direction: column;
+  }
+
+  #block-tele1{
+    flex-direction: column;
+    height: 250px;
+  }
+
+  #block-tele2{
+    flex-direction: column;
+    height: 250px;
+  }
+
+  #block-tele3{
+    flex-direction: column;
+    height: 250px;
+  }
+
+  #block-tele4{
+    flex-direction: column;
+    height: 250px;
+  }
+
+
+  #logo-channel1{
+    margin: auto;
+  }
+
+  .blocks-channel{
+    
+  }
+
+  #block-tele2{
+    flex-direction: column;
+  }
+
+  #block-tele3{
+    flex-direction: column;
+  }
+
+  #block-tele4{
+    flex-direction: column;
+  }
+
+  .footer-content{
+    width: 580px;
+    height: 100%;
+    flex-wrap: wrap;
+    padding-top: 20px;
+  }
+
+  footer{
+    height: 100%;
+  }
+
+  #img-logo-htc{
+    margin: auto;
+  }
+
+  #link-htc a{
+    text-align: center;
+  }
+}
+
+@media (max-width: 615px) {
+  main{
+    width: 280px;
+  }
+
+  .block-container-images-flims{
+    width: 280px;
+  }
+
+  #text-article2{
+    width: 280px;
+    text-align: center;
+  }
+
+  #container-links{
+    width: 280px;
+    margin: auto;
+  }
+
+  #films{
+    font-size: 24px;
+    margin-right: 30px;
+  }
+
+  #tele{
+    font-size: 24px;
+  }
+
+  .container-links{
+    display: flex;
+    width: 280px;
+  }
+
+  #main-container{
+    width: 280px;
+    height: 150px;
+    flex-direction: column;
+  }
+
+  .cont2{
+    width: 280px;
+    margin-bottom: 10px;
+  }
+
+  #Nat{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  }
