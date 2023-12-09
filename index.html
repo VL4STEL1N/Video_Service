@@ -10,9 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <script src="index.js" defer></script>
   </head>
   <body>
     <header>
@@ -28,7 +28,7 @@
 
         <div class="cont2">
             <input type="search" id="mySearch" name=""  placeholder="Поиск.." />
-            <a href="" id="Nat">Найти</a>
+            <a href="/" id="Nat">Найти</a>
         </div>
 
         <div class="cont3">
@@ -45,6 +45,15 @@
     </nav>
 
     <main>
+
+      <dialog class="form">
+        <h2 class="input">Вход</h2>
+        <input type="text" placeholder="Логин" name="uname" required class="input-form">
+        <input type="text" placeholder="Пароль" name="uname" required class="input-form2">
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </dialog>
+
+
       <h2 id="text-article2">🔥 Новинки</h2>
 
       <div class="block-container-images-flims">
