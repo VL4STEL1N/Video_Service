@@ -32,7 +32,7 @@
         </div>
 
         <div class="cont3">
-            <button id="Voit">Войти</button>
+            <button id="Voit" class="openDialogBtn" class="button-violet">Войти</button>
         </div>
       </div>
     </header>
@@ -46,13 +46,16 @@
 
     <main>
 
-      <dialog class="form">
-        <h2 class="input">Вход</h2>
-        <input type="text" placeholder="Логин" name="uname" required class="input-form">
-        <input type="text" placeholder="Пароль" name="uname" required class="input-form2">
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </dialog>
+        <dialog class="child" id="myDialog">
+          <div class="dialog__wrapper">
+            <h2 class="input">Вход</h2>
+            <input type="text" placeholder="Логин" name="uname" required class="input-form">
+            <input type="text" placeholder="Пароль" name="uname" required class="input-form2"> <br>
+            <input type="checkbox" checked="checked" name="remember" class="checkbox"> Запомнить <br>
 
+            <button class="closeDialogBtn button-black">Войти</button>
+          </div>
+        </dialog>
 
       <h2 id="text-article2">🔥 Новинки</h2>
 

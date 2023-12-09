@@ -104,6 +104,10 @@ p{
   cursor: pointer;
 }
 
+#Voit:active{
+  background: #CC221B;
+}
+
 #mySearch{
   width: 20rem;
   height: 1.5625rem;
@@ -174,6 +178,95 @@ main{
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
+}
+
+dialog {
+  position: fixed;
+  width: 304px;
+  height: 394px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FFF;
+  top: 26%;
+  left: 16.8%;
+  transform: translate(-50%, -50%);
+  border: none;
+  padding: 0;
+  background-color: #FFFFFF;
+  text-align: center;
+  margin: auto;
+}
+
+.input{
+  color: var(--Gray-1, #333);
+  text-align: right;
+  font-family: Rubik;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+
+.input-form{
+  display: flex;
+  width: 232px;
+  height: 25px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6px;
+  flex-shrink: 0;
+  border-top-style: none;
+  border-left-style:none;
+  border-right-style: none ;
+  margin: auto;
+}
+
+.input-form2{
+  display: flex;
+  width: 232px;
+  height: 25px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6px;
+  flex-shrink: 0;
+  border-top-style: none;
+  border-left-style:none;
+  border-right-style: none ;
+  margin: auto;
+  margin-top: 24px;
+}
+
+.checkbox{
+  display: inline-block;
+  margin-left: -130px;
+  margin-top: 23px;
+}
+
+.button-black{
+  width: 113px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: var(--red, #E5261E);
+  border: none;
+  margin-top: 111px;
+  color: #FFF;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+dialog::backdrop {
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  opacity: 0.6;
+  background: var(--Gray-1, #333);
 }
 
 #block-tele1{
@@ -427,6 +520,11 @@ footer{
   .footer-content{
     width: 880px;
   }
+
+  dialog {
+    top: 26%;
+    left: 25.8%;
+  }
 }
 
 
@@ -434,6 +532,12 @@ footer{
   main{
     width: 580px;
   }
+
+  dialog {
+    top: 26%;
+    left: 34%;
+  }
+  
 
   #main-container{
     width: 580px;
@@ -674,5 +778,10 @@ footer{
   .main-container-tele{
     width: 280px;
     margin: auto;
+  }
+
+  dialog {
+    top: 26%;
+    left: 49%;
   }
 }
